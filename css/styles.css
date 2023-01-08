@@ -1,0 +1,169 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  size: 3rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  line-height: 1.5rem;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* title section */
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.container-fluid {
+  margin: 56px auto auto auto;
+  padding: 3% 15% 7%;
+}
+
+.downloadappleicon {
+  padding: 5px;
+}
+
+.navbar-brand {
+  margin: auto 14px auto 14px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+}
+
+.bg-pink {
+  color: #ef8172;
+}
+
+.downloadapplebutton {
+  margin: 5% 3% 5% 0;
+}
+
+.downloadplaystorebutton {
+  margin: 5% 3% 5% 0;
+}
+
+.title-img {
+  margin: 24px auto auto auto;
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+.nav-item {
+  margin: auto 12px auto 12px;
+}
+
+/* features section */
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+}
+
+.icon {
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonials section */
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 50px;
+}
+
+.card {
+  margin: 10px;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+  text-align: center;
+}
+
+.downloadapplebutton1 {
+  margin: 5% 3% 5% 0;
+  margin-left: 10px;
+}
+
+.downloadplaystorebutton1 {
+  margin: 5% 3% 5% 0;
+}
+
+@media (max-width: 991) {
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    right: 100%;
+    width: 20%;
+  }
+}
+
+.cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 50px;
+}
+
+#footer {
+  height: 75px;
+  width: 100%;
+  text-align: center;
+  margin: 25px;
+}
+
+.copyright {
+  top: 100px;
+  text-align: center;
+}
+
+#footericon {
+  margin: 20px 10px;
+}
